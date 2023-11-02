@@ -4,11 +4,35 @@ nav {
     background-color: pink;
     align-items: center;
     justify-content: space-between;
-    padding: 1%;
+    padding: 1% 2%;
+    /* padding top and bot 1% padding left and right 2%*/
+}
+
+.nav-links {
+    display: flex;
+}
+
+.nav-links a {
+    margin-right: 25%;
+}
+
+a {
+    font-size: larger;
+    font-family: 'Roboto', sans-serif;
+    color: black;
+}
+
+input{
+    font-size: larger;
+    border-radius: 15px;
+    border: 1px solid black;
+    text-align: center;
+
 }
 
 .body {
     background-image: url(/image/background.jpg);
+    background-size: cover;
     color: white;
     font-size: large;
     font-family: 'Roboto', sans-serif;
@@ -23,18 +47,6 @@ nav {
     font-family: 'Pacifico', cursive;
 }
 
-.link {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    justify-content: space-between;
-}
-
-.search {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
-}
 
 .presentation {
     text-align: center;
