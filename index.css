@@ -1,0 +1,78 @@
+nav {
+    display: flex;
+    flex-direction: row;
+    background-color: pink;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1%;
+}
+
+.body {
+    background-image: url(/image/background.jpg);
+    color: white;
+    font-size: large;
+    font-family: 'Roboto', sans-serif;
+}
+
+.title {
+    font-family: 'Pacifico', cursive;
+    font-size: 48px;
+}
+
+.subtitle {
+    font-family: 'Pacifico', cursive;
+}
+
+.link {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    justify-content: space-between;
+}
+
+.search {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.presentation {
+    text-align: center;
+}
+
+.index-img img {
+    max-width: 23%;
+}
+
+.index-img {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.articles {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.services {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    text-align: justify;
+    padding: 2%;
+}
+
+.button {
+    text-align: left;
+    margin-top: 5%;
+}
+
+.footer {
+    background-color: pink;
+    text-align: center;
+    color: azure;
+    font-weight: bold;
+    padding: 1%;
+}
