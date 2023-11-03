@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="contact.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto:wght@900&display=swap" rel="stylesheet">
+    <title>Formulaire Client</title>
+    <nav>
+        <div class="nav-links">
+            <a href="index.html">Home</a>
+            <a href="entreprise.html">Entreprise</a>
+            <a href="realisations.html">Realisations</a>
+            <a href="contact.html">Contact</a>
+        </div>
+        <div class="search-box">
+            <input type="search" name="search"
+                value="Rechercher"><!--value me permet d'ecrire rechercher dans la boite-->
+        </div>
+    </nav>
+</head>
+
+<body class="body">
+    <div class="form">
+        <h1>Formulaire de contact</h1>
+
+        <label for="civilite">Civilité:</label>
+        <select class="gender" id="civilite" name="civilite">
+            <option value="M">Monsieur</option>
+            <option value="Mme">Madame</option>
+        </select>
+
+        <label for="nom">Nom:</label>
+        <input class="identity" type="text" id="nom" name="nom" required><br>
+
+        <label for="prenom">Prénom:</label>
+        <input class="identity" type="text" id="prenom" name="prenom" required><br>
+
+        <label for="adresse">Adresse:</label>
+        <input class="adress" type="text" id="adresse" name="adresse" required>
+
+        <div>
+            <label for="commentaires">Commentaires:</label><br>
+            <textarea  id="commentaires" name="commentaires" row="4" cols="50" required></textarea>
+        </div>
+
+        <div class="checkbox-label">
+            <input type="checkbox" id="confidentialite" name="confidentialite" required>
+            <label for="confidentialite">Je valide les politiques de confidentialité de l'entreprise</label>
+        </div>
+
+        <button class="submit" type="submit">Valider</button>
+    </div>
+
+</body>
+
+<footer>
+    <div class="footer">Droits d'auteur &copy;2023</div>
+
+</footer>
+
+</html>

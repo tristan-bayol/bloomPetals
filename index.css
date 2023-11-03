@@ -14,15 +14,13 @@ nav {
 
 .nav-links a {
     margin-right: 25%;
-}
-
-a {
     font-size: larger;
-    font-family: 'Roboto', sans-serif;
     color: black;
+    font-family: 'Pacifico', cursive;
 }
 
-input{
+
+input {
     font-size: larger;
     border-radius: 15px;
     border: 1px solid black;
@@ -34,7 +32,7 @@ input{
     background-image: url(/image/background.jpg);
     background-size: cover;
     color: white;
-    font-size: large;
+    font-size: x-large;
     font-family: 'Roboto', sans-serif;
 }
 

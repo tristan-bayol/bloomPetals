@@ -1,0 +1,44 @@
+nav {
+    display: flex;
+    flex-direction: row;
+    background-color: pink;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1% 2%;
+    /* padding top and bot 1% padding left and right 2%*/
+}
+
+.nav-links {
+    display: flex;
+}
+
+.nav-links a {
+    margin-right: 25%;
+    font-size: larger;
+    color: black;
+    font-family: 'Pacifico', cursive;
+}
+
+input {
+    font-size: larger;
+    border-radius: 15px;
+    border: 1px solid black;
+    text-align: center;
+
+}
+
+.body {
+    background-image: url(/image/background.jpg);
+    background-size: cover;
+    color: white;
+    font-size: x-large;
+    font-family: 'Roboto', sans-serif;
+}
+
+.footer {
+    background-color: pink;
+    text-align: center;
+    color: azure;
+    font-weight: bold;
+    padding: 1%;
+}
