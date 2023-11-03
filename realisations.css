@@ -35,6 +35,50 @@ input {
     font-family: 'Roboto', sans-serif;
 }
 
+.title {
+    font-family: 'Pacifico', cursive;
+    text-align: center;
+}
+
+.size {
+    /* Cette classe permet a mes images de changer de taille pour s'adapter a l'ecran et prendre tout l'espace sur ma mosaique */
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 15px;
+    border: 5px solid pink;
+}
+
+.mosaique {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    text-align: center;
+    grid-gap: 50px;
+    margin-top: 150px;
+    margin-bottom: 100px;
+}
+
+.one {
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+
+.two {
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+
+
+.three {
+    grid-column-start: 2;
+    grid-column-end: 4;
+}
+
+.four {
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
 .footer {
     background-color: pink;
     text-align: center;

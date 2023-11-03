@@ -52,6 +52,9 @@ input {
 
 .index-img img {
     max-width: 23%;
+    border-radius: 15px;
+    border: 5px solid pink;
+    margin: 1% 0%;
 }
 
 .index-img {

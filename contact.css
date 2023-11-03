@@ -35,7 +35,12 @@ input {
     font-family: 'Roboto', sans-serif;
 }
 
-h1 {
+.title1 {
+    font-family: 'Pacifico', cursive;
+    text-align: center;
+}
+
+.title2 {
     font-family: 'Pacifico', cursive;
     text-decoration: underline;
     text-align: center;
@@ -89,10 +94,13 @@ select {
 }
 
 textarea {
-    font-size:xx-large;
-    width: 900px; /* Largeur fixe de 900 pixels */
-    height: 300px; /* Hauteur fixe de 150 pixels */
-    resize: none; /* Désactive la possibilité de redimensionnement par l'utilisateur */
+    font-size: xx-large;
+    width: 900px;
+    /* Largeur fixe de 900 pixels */
+    height: 300px;
+    /* Hauteur fixe de 150 pixels */
+    resize: none;
+    /* Désactive la possibilité de redimensionnement par l'utilisateur */
     border: 5px solid pink;
     border-radius: 5px;
 }
